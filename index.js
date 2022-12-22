@@ -11,7 +11,7 @@ const io = require("socket.io")(server, {
 
 app.use(cors());
 
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 9001;
 
 app.get('/', (req, res) => {
 	res.send('Running');
